@@ -1,0 +1,21 @@
+[
+  {
+    "audioUrl":
+    "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+    "imgUrl": "assets/categories/short_stories/book1",
+    "title": "Birthday Stories: Selected and Introduced by Haruki Murakami",
+    "author": "Haruki Murakami"
+  },
+  {
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+    "imgUrl": "assets/categories/short_stories/book2",
+    "title": "Onam in a Nightie: Stories from a Kerala Quarantine",
+    "author": "Anjana Menon"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
+    "imgUrl": "assets/categories/short_stories/book4",
+    "title": "The Greatest Short Stories of Leo Tolstoy",
+    "author": "Leo Tolstoy"
+  }
+]

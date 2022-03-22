@@ -1,0 +1,33 @@
+[
+  {
+    "audioUrl":
+    "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+    "imgUrl": "assets/categories/hindi/book1",
+    "title": "Topi Shukla (Hindi)",
+    "author": "Rahi Masoom Raza"
+  },
+  {
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+    "imgUrl": "assets/categories/hindi/book2",
+    "title": "Saaye Mein Dhoop (Hindi)",
+    "author": "Dushyant Kumar"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
+    "imgUrl": "assets/categories/hindi/book3",
+    "title": "Gitanjali (Hindi)",
+    "author": "Rabindranath Tagore"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample4.mp3?alt=media&token=96e5ae1e-6604-4fd7-9274-35bfef01e0cf",
+    "imgUrl": "assets/categories/hindi/book4",
+    "title": "Chitralekha (Hindi)",
+    "author": "Bhagwaticharan Verma"
+  },{
+  "audioUrl":
+  "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+  "imgUrl": "assets/categories/hindi/book5",
+  "title": "Kankal (Hindi)",
+  "author": "Jaishankar Prasad"
+}
+]

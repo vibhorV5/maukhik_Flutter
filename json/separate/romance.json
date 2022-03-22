@@ -1,0 +1,45 @@
+[
+  {
+    "audioUrl":
+    "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+    "imgUrl": "assets/categories/romance/book1",
+    "title": "One Arranged Murder",
+    "author": "Chetan Bhagat"
+  },
+  {
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+    "imgUrl": "assets/categories/romance/book2",
+    "title": "A Touch of Eternity",
+    "author": "Datta Durjoy"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
+    "imgUrl": "assets/categories/romance/book3",
+    "title": "The Fault in our Stars",
+    "author": "John Green"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample4.mp3?alt=media&token=96e5ae1e-6604-4fd7-9274-35bfef01e0cf",
+    "imgUrl": "assets/categories/romance/book4",
+    "title": "A Girl to Remember",
+    "author": "Ajay K Pandey"
+  },{
+  "audioUrl":
+  "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+  "imgUrl": "assets/categories/romance/book5",
+  "title": "Something I Never Told You",
+  "author": "Shravya Bhinder"
+},
+  {
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+    "imgUrl": "assets/categories/romance/book6",
+    "title": "Wish I Could Tell You",
+    "author": "Durjoy Datta"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
+    "imgUrl": "assets/categories/romance/book7",
+    "title": "You Only Live Once",
+    "author": "Stuti Changle"
+  }
+]

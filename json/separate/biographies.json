@@ -1,0 +1,39 @@
+[
+  {
+    "audioUrl":
+    "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+    "imgUrl": "assets/categories/biographies/book1",
+    "title": "Here, There and Everywhere",
+    "author": "Sudha Murty"
+  },
+  {
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+    "imgUrl": "assets/categories/biographies/book2",
+    "title": "Brief Answers to the Big Questions",
+    "author": "Stephen Hawking"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
+    "imgUrl": "assets/categories/biographies/book3",
+    "title": "Becoming",
+    "author": "Michelle Obama"
+  },
+  {
+    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample4.mp3?alt=media&token=96e5ae1e-6604-4fd7-9274-35bfef01e0cf",
+    "imgUrl": "assets/categories/biographies/book4",
+    "title": "Why I am an Atheist and Other Works",
+    "author": "Bhagat Singh"
+  },{
+  "audioUrl":
+  "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+  "imgUrl": "assets/categories/biographies/book5",
+  "title": "The Letters of Vincent Van Gogh",
+  "author": " Vincent Van Gogh"
+},
+  {
+    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+    "imgUrl": "assets/categories/biographies/book6",
+    "title": "The Beauty of All My Days: A Memoir",
+    "author": "Ruskin Bond"
+  }
+]

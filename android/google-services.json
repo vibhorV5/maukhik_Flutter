@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708873967339",
+    "project_id": "maukhik-audiobook",
+    "storage_bucket": "maukhik-audiobook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708873967339:android:15e02974a6353160add0ae",
+        "android_client_info": {
+          "package_name": "vibhorvats.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708873967339-0cdsg71clvckl3m3j16u3n5ut4uopa8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOzrfGVCZM7-HAN4ACnn8b21DDDBvQQyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708873967339-0cdsg71clvckl3m3j16u3n5ut4uopa8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
