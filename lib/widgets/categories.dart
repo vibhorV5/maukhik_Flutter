@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:maukhik_audio_book_app/constants/colors.dart';
+import 'package:maukhik_audio_book_app/constants/text_style.dart';
 
 class Categories extends StatelessWidget {
   final List database;
@@ -30,12 +31,7 @@ class Categories extends StatelessWidget {
               alignment: Alignment.center,
               child: Text(
                 database[index].keys.first,
-                style: TextStyle(
-                  fontFamily: 'RobotoLight',
-                  color: kIcons,
-                  fontSize: 15,
-                  letterSpacing: 0.3,
-                ),
+                style: kCategoryTitles,
               ),
             ),
           );

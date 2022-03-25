@@ -7,3 +7,9 @@ const TextStyle kAuthorText =
     TextStyle(color: kAuthor, fontSize: 10, fontFamily: 'RobotoLight');
 const TextStyle kTitleText =
     TextStyle(color: kIcons, fontSize: 13, fontFamily: 'RobotoLight');
+const TextStyle kCategoryTitles = TextStyle(
+  fontFamily: 'RobotoLight',
+  color: kIcons,
+  fontSize: 15,
+  letterSpacing: 0.3,
+);
