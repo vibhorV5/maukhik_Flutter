@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:maukhik_audio_book_app/constants/colors.dart';
 import 'package:maukhik_audio_book_app/constants/text_style.dart';
-import 'package:maukhik_audio_book_app/screens/search_page.dart';
 import 'package:maukhik_audio_book_app/widgets/categories_book_list.dart';
 import 'package:maukhik_audio_book_app/widgets/categories.dart';
 import 'package:maukhik_audio_book_app/widgets/popular_book_list.dart';
@@ -42,67 +41,58 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      extendBody: true,
-      bottomNavigationBar: ClipRRect(
-        borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(40),
-          topRight: Radius.circular(40),
-        ),
-        child: Container(
-          decoration: BoxDecoration(
-            color: kBackground,
-          ),
-          width: MediaQuery.of(context).size.width,
-          height: 70,
-          child: Container(
-            padding: EdgeInsets.only(top: 18, left: 45, right: 45),
-            // color: Colors.white.withOpacity(0.1),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Container(
-                  padding: EdgeInsets.symmetric(horizontal: 15),
-                  // color: Colors.red.withOpacity(0.1),
-                  child: MenuBarRow(
-                    icon: Icons.home_filled,
-                    txt: 'Home',
-                  ),
-                ),
-
-                /// Search Button
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => SearchPage(),
-                      ),
-                    );
-                  },
-                  child: Container(
-                    padding: EdgeInsets.symmetric(horizontal: 25),
-                    // color: Colors.red.withOpacity(0.1),
-                    child: MenuBarRow(
-                      icon: Icons.search_rounded,
-                      txt: 'Search',
-                    ),
-                  ),
-                ),
-
-                Container(
-                  padding: EdgeInsets.symmetric(horizontal: 15),
-                  // color: Colors.red.withOpacity(0.1),
-                  child: MenuBarRow(
-                    icon: Icons.account_circle_rounded,
-                    txt: 'Profile',
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
       backgroundColor: kNotSelected,
+      extendBody: true,
+      // bottomNavigationBar: ClipRRect(
+      //   borderRadius: BorderRadius.only(
+      //     topLeft: Radius.circular(40),
+      //     topRight: Radius.circular(40),
+      //   ),
+      //   child: Container(
+      //     decoration: BoxDecoration(
+      //       color: kBackground,
+      //     ),
+      //     width: MediaQuery.of(context).size.width,
+      //     height: 70,
+      //     child: Container(
+      //       padding: EdgeInsets.only(top: 18, left: 45, right: 45),
+      //       // color: Colors.white.withOpacity(0.1),
+      //       child: Row(
+      //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //         children: [
+      //           Container(
+      //             padding: EdgeInsets.symmetric(horizontal: 15),
+      //             // color: Colors.red.withOpacity(0.1),
+      //             child: MenuBarRow(
+      //               icon: Icons.home_filled,
+      //               txt: 'Home',
+      //             ),
+      //           ),
+      //
+      //           /// Search Button
+      //           Container(
+      //             padding: EdgeInsets.symmetric(horizontal: 25),
+      //             // color: Colors.red.withOpacity(0.1),
+      //             child: MenuBarRow(
+      //               icon: Icons.search_rounded,
+      //               txt: 'Search',
+      //             ),
+      //           ),
+      //
+      //           Container(
+      //             padding: EdgeInsets.symmetric(horizontal: 15),
+      //             // color: Colors.red.withOpacity(0.1),
+      //             child: MenuBarRow(
+      //               icon: Icons.account_circle_rounded,
+      //               txt: 'Profile',
+      //             ),
+      //           ),
+      //         ],
+      //       ),
+      //     ),
+      //   ),
+      // ),
+      // backgroundColor: kNotSelected,
       body: SingleChildScrollView(
           child: Stack(
         children: [
@@ -179,51 +169,14 @@ class _HomePageState extends State<HomePage> {
                         )
                       : PopularBookList(listBooks: loadDatabase[8]["popular"]),
                 ),
-                SizedBox(
-                  height: 80,
-                ),
+                // SizedBox(
+                //   height: 80,
+                // ),
               ],
             ),
           ),
         ],
       )),
-    );
-  }
-}
-
-class MenuBarRow extends StatelessWidget {
-  MenuBarRow({required this.txt, required this.icon});
-
-  String txt;
-  IconData icon;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      // color: Colors.red.withOpacity(0.3),
-      child: Column(
-        children: [
-          Container(
-            child: Icon(
-              icon,
-              color: kIcons,
-              size: 25,
-            ),
-          ),
-          SizedBox(
-            height: 4,
-          ),
-          Container(
-              child: Text(
-            txt,
-            style: TextStyle(
-                color: kIcons,
-                fontSize: 12,
-                fontFamily: 'Roboto-Regular',
-                fontWeight: FontWeight.bold),
-          )),
-        ],
-      ),
     );
   }
 }

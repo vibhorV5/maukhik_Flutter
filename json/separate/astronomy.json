@@ -1,28 +1,61 @@
-[
-  {
-    "audioUrl":
-    "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
-    "imgUrl": "assets/categories/astronomy/book1",
-    "title": "Cosmos",
-    "author": "Carl Sagan"
-  },
-  {
-    "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
-    "imgUrl": "assets/categories/astronomy/book2",
-    "title": "Encyclopedia: The Milky Way (Space Encyclopedia)",
-    "author": "Om Books Editorial Team"
-  },
-  {
-    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
-    "imgUrl": "assets/categories/astronomy/book3",
-    "title": "Encyclopedia: The Solar System and its Dwarf Planet (Space Encyclopedia)",
-    "author": "Om Books Editorial Team"
-  },
-  {
-    "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample4.mp3?alt=media&token=96e5ae1e-6604-4fd7-9274-35bfef01e0cf",
-    "imgUrl": "assets/categories/astronomy/book4",
-    "title": "Seven Brief Lessons on Physics",
-    "author": "Carlo Rovelli"
-  }
-]
-
+[{
+  "Astronomy" : [
+    {
+      "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+      "imgUrl": "assets/categories/astronomy/book2.jpg",
+      "title": "Encyclopedia: The Milky Way (Space Encyclopedia)",
+      "author": "Om Books Editorial Team"
+    },
+    {
+      "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
+      "imgUrl": "assets/categories/astronomy/book3.jpg",
+      "title": "Encyclopedia: The Solar System and its Dwarf Planet (Space Encyclopedia)",
+      "author": "Om Books Editorial Team"
+    },
+    {
+      "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample4.mp3?alt=media&token=96e5ae1e-6604-4fd7-9274-35bfef01e0cf",
+      "imgUrl": "assets/categories/astronomy/book4.jpg",
+      "title": "Seven Brief Lessons on Physics",
+      "author": "Carlo Rovelli"
+    },
+    {
+      "audioUrl":
+      "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+      "imgUrl": "assets/categories/astronomy/book5.jpg",
+      "title": "The Theory of Everything: The Origin and Fate of the Universe",
+      "author": "Stephen Hawking"
+    },
+    {
+      "audioUrl": "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample2.mp3?alt=media&token=a18d96df-91ee-4464-81e3-ab482c4c2c08",
+      "imgUrl": "assets/categories/astronomy/book6.jpg",
+      "title": "A Brief History Of Time: From Big Bang To Black Holes",
+      "author": "Stephen Hawking"
+    },
+    {
+      "audioUrl":
+      "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+      "imgUrl": "assets/categories/astronomy/book1.jpg",
+      "title": "Cosmos",
+      "author": "Carl Sagan"
+    },
+    {
+      "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample3.mp3?alt=media&token=c7659ec5-157e-45fe-97ad-0deb0cfb53c7",
+      "imgUrl": "assets/categories/astronomy/book7.jpg",
+      "title": "Space - 500 Facts",
+      "author": "Pegasus"
+    },
+    {
+      "audioUrl" : "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample4.mp3?alt=media&token=96e5ae1e-6604-4fd7-9274-35bfef01e0cf",
+      "imgUrl": "assets/categories/astronomy/book8.jpg",
+      "title": "Black Holes: The Reith Lectures",
+      "author": "Stephen Hawking"
+    },
+    {
+      "audioUrl":
+      "https://firebasestorage.googleapis.com/v0/b/maukhik-audiobook.appspot.com/o/sample1.mp3?alt=media&token=4cdf4d9c-f319-4f20-a011-395f355b96bd",
+      "imgUrl": "assets/categories/astronomy/book9.jpg",
+      "title": "Endless Universe: Beyond The Big Bang",
+      "author": "Paul J. Steinhardt, Neil Turok"
+    }
+  ]
+}]
